@@ -1,0 +1,366 @@
+{
+  "Cricket": [
+    {
+      "fact": "India won their first Cricket World Cup in 1983, defeating the West Indies by 43 runs in the final at Lord's under the captaincy of Kapil Dev.",
+      "metadata": {
+        "sport": "Cricket",
+        "topic": "World Cup",
+        "players": ["Kapil Dev"],
+        "year": 1983,
+        "difficulty": "Easy"
+      }
+    },
+    {
+      "fact": "Sachin Tendulkar scored his 100th international century against Bangladesh in 2012 at the Sher-e-Bangla National Stadium in Mirpur, becoming the only player to achieve this milestone.",
+      "metadata": {
+        "sport": "Cricket",
+        "topic": "Centuries Record",
+        "players": ["Sachin Tendulkar"],
+        "year": 2012,
+        "difficulty": "Medium"
+      }
+    },
+    {
+      "fact": "Sir Donald Bradman of Australia retired with a Test batting average of 99.94. In his final Test match in 1948 against England, he needed only four runs to average 100 but was bowled for a duck by Eric Hollies.",
+      "metadata": {
+        "sport": "Cricket",
+        "topic": "Batting Average",
+        "players": ["Donald Bradman"],
+        "year": 1948,
+        "difficulty": "Easy"
+      }
+    },
+    {
+      "fact": "The first official Test match in cricket history was played between Australia and England at the Melbourne Cricket Ground (MCG) in March 1877, which Australia won by 45 runs.",
+      "metadata": {
+        "sport": "Cricket",
+        "topic": "First Test Match",
+        "players": ["Charles Bannerman"],
+        "year": 1877,
+        "difficulty": "Hard"
+      }
+    },
+    {
+      "fact": "M.S. Dhoni hit a match-winning six at the Wankhede Stadium to lead India to their second ODI World Cup victory in 2011, defeating Sri Lanka in the final.",
+      "metadata": {
+        "sport": "Cricket",
+        "topic": "World Cup",
+        "players": ["M.S. Dhoni"],
+        "year": 2011,
+        "difficulty": "Easy"
+      }
+    }
+  ],
+  "Football": [
+    {
+      "fact": "Pele is the only football player to win three FIFA World Cups, lifting the trophy in 1958 (Sweden), 1962 (Chile), and 1970 (Mexico) with Brazil.",
+      "metadata": {
+        "sport": "Football",
+        "topic": "World Cup",
+        "players": ["Pele"],
+        "year": 1970,
+        "difficulty": "Easy"
+      }
+    },
+    {
+      "fact": "Leicester City won the English Premier League in the 2015-16 season under manager Claudio Ranieri, starting the season with bookmakers' odds of 5000-1 to win the title.",
+      "metadata": {
+        "sport": "Football",
+        "topic": "Premier League",
+        "players": ["Jamie Vardy", "Riyad Mahrez"],
+        "year": 2016,
+        "difficulty": "Medium"
+      }
+    },
+    {
+      "fact": "In the 1986 FIFA World Cup quarter-final between Argentina and England, Diego Maradona scored both the controversial 'Hand of God' goal and the 'Goal of the Century' where he dribbled past five England defenders.",
+      "metadata": {
+        "sport": "Football",
+        "topic": "World Cup",
+        "players": ["Diego Maradona"],
+        "year": 1986,
+        "difficulty": "Easy"
+      }
+    },
+    {
+      "fact": "Lionel Messi won his record-extending eighth Ballon d'Or in 2023, following his success in leading Argentina to the 2022 FIFA World Cup title in Qatar.",
+      "metadata": {
+        "sport": "Football",
+        "topic": "Ballon d'Or",
+        "players": ["Lionel Messi"],
+        "year": 2023,
+        "difficulty": "Easy"
+      }
+    },
+    {
+      "fact": "The inaugural FIFA World Cup was hosted and won by Uruguay in 1930. They defeated Argentina 4-2 in the final in Montevideo.",
+      "metadata": {
+        "sport": "Football",
+        "topic": "First World Cup",
+        "players": [],
+        "year": 1930,
+        "difficulty": "Medium"
+      }
+    }
+  ],
+  "Tennis": [
+    {
+      "fact": "Roger Federer became the first male player to win 20 Grand Slam singles titles, reaching the milestone at the 2018 Australian Open.",
+      "metadata": {
+        "sport": "Tennis",
+        "topic": "Grand Slams",
+        "players": ["Roger Federer"],
+        "year": 2018,
+        "difficulty": "Easy"
+      }
+    },
+    {
+      "fact": "Rafael Nadal of Spain has won a record 14 French Open singles titles at Roland Garros, earning him the title 'The King of Clay'.",
+      "metadata": {
+        "sport": "Tennis",
+        "topic": "Roland Garros",
+        "players": ["Rafael Nadal"],
+        "year": 2022,
+        "difficulty": "Easy"
+      }
+    },
+    {
+      "fact": "Steffi Graf is the only tennis player, male or female, to win the Golden Slam, winning all four Grand Slam singles titles and the Olympic Gold Medal in the same calendar year (1988).",
+      "metadata": {
+        "sport": "Tennis",
+        "topic": "Golden Slam",
+        "players": ["Steffi Graf"],
+        "year": 1988,
+        "difficulty": "Medium"
+      }
+    },
+    {
+      "fact": "Serena Williams won 23 Grand Slam singles titles in the Open Era, the most by any player in this era, with her final Grand Slam win coming at the 2017 Australian Open while pregnant.",
+      "metadata": {
+        "sport": "Tennis",
+        "topic": "Grand Slams",
+        "players": ["Serena Williams"],
+        "year": 2017,
+        "difficulty": "Easy"
+      }
+    },
+    {
+      "fact": "The longest tennis match in history was played at Wimbledon in 2010 between John Isner of the USA and Nicolas Mahut of France, lasting 11 hours and 5 minutes over three days, ending 70-68 in the fifth set.",
+      "metadata": {
+        "sport": "Tennis",
+        "topic": "Longest Match",
+        "players": ["John Isner", "Nicolas Mahut"],
+        "year": 2010,
+        "difficulty": "Medium"
+      }
+    }
+  ],
+  "Badminton": [
+    {
+      "fact": "Prakash Padukone became the first Indian to win the prestigious All England Open Badminton Championships in 1980, defeating Liem Swie King of Indonesia in the final.",
+      "metadata": {
+        "sport": "Badminton",
+        "topic": "All England",
+        "players": ["Prakash Padukone"],
+        "year": 1980,
+        "difficulty": "Medium"
+      }
+    },
+    {
+      "fact": "Lin Dan of China is widely considered one of the greatest badminton players, having won two Olympic Gold Medals (2008, 2012) and five World Championship singles titles.",
+      "metadata": {
+        "sport": "Badminton",
+        "topic": "Olympic Gold",
+        "players": ["Lin Dan"],
+        "year": 2012,
+        "difficulty": "Easy"
+      }
+    },
+    {
+      "fact": "Carolina Marin of Spain became the first non-Asian woman to win the Olympic gold medal in women's singles badminton, achieving the feat at the 2016 Rio Olympics.",
+      "metadata": {
+        "sport": "Badminton",
+        "topic": "Olympic Gold",
+        "players": ["Carolina Marin"],
+        "year": 2016,
+        "difficulty": "Medium"
+      }
+    },
+    {
+      "fact": "Malaysia's Lee Chong Wei held the World Number One ranking for a record 349 weeks, including a consecutive streak of 199 weeks from 2008 to 2012, despite never winning an Olympic or World Gold.",
+      "metadata": {
+        "sport": "Badminton",
+        "topic": "Rankings",
+        "players": ["Lee Chong Wei"],
+        "year": 2012,
+        "difficulty": "Hard"
+      }
+    },
+    {
+      "fact": "P.V. Sindhu became the first Indian to win the Badminton World Championships gold medal in 2019, defeating Nozomi Okuhara of Japan in the final in Basel.",
+      "metadata": {
+        "sport": "Badminton",
+        "topic": "World Championships",
+        "players": ["P.V. Sindhu"],
+        "year": 2019,
+        "difficulty": "Easy"
+      }
+    }
+  ],
+  "Basketball": [
+    {
+      "fact": "Michael Jordan led the Chicago Bulls to six NBA Championships, achieved via two separate 'three-peats' (three consecutive titles) from 1991-1993 and 1996-1998.",
+      "metadata": {
+        "sport": "Basketball",
+        "topic": "NBA Championships",
+        "players": ["Michael Jordan"],
+        "year": 1998,
+        "difficulty": "Easy"
+      }
+    },
+    {
+      "fact": "Wilt Chamberlain scored 100 points in a single NBA game on March 2, 1962, playing for the Philadelphia Warriors against the New York Knicks, a record that has never been broken.",
+      "metadata": {
+        "sport": "Basketball",
+        "topic": "Scoring Record",
+        "players": ["Wilt Chamberlain"],
+        "year": 1962,
+        "difficulty": "Easy"
+      }
+    },
+    {
+      "fact": "LeBron James passed Kareem Abdul-Jabbar's long-standing record of 38,387 points in February 2023 to become the NBA's all-time leading scorer in regular season history.",
+      "metadata": {
+        "sport": "Basketball",
+        "topic": "Scoring Record",
+        "players": ["LeBron James"],
+        "year": 2023,
+        "difficulty": "Easy"
+      }
+    },
+    {
+      "fact": "The 1992 United States Men's Olympic Basketball Team, nicknamed the 'Dream Team', was the first American Olympic team to feature active NBA players, cruising to gold in Barcelona.",
+      "metadata": {
+        "sport": "Basketball",
+        "topic": "Dream Team",
+        "players": ["Michael Jordan", "Magic Johnson", "Larry Bird"],
+        "year": 1992,
+        "difficulty": "Medium"
+      }
+    },
+    {
+      "fact": "The Boston Celtics hold the record for the most consecutive NBA championships in history, winning eight titles in a row from 1959 to 1966 under coach Red Auerbach.",
+      "metadata": {
+        "sport": "Basketball",
+        "topic": "NBA Championships",
+        "players": ["Bill Russell"],
+        "year": 1966,
+        "difficulty": "Hard"
+      }
+    }
+  ],
+  "Formula 1": [
+    {
+      "fact": "Michael Schumacher and Lewis Hamilton hold the joint record for the most Formula 1 World Drivers' Championships, with seven titles each.",
+      "metadata": {
+        "sport": "Formula 1",
+        "topic": "World Championships",
+        "players": ["Michael Schumacher", "Lewis Hamilton"],
+        "year": 2020,
+        "difficulty": "Easy"
+      }
+    },
+    {
+      "fact": "Ayrton Senna holds the record for the most Monaco Grand Prix victories, winning the prestigious street race six times between 1987 and 1993.",
+      "metadata": {
+        "sport": "Formula 1",
+        "topic": "Monaco GP",
+        "players": ["Ayrton Senna"],
+        "year": 1993,
+        "difficulty": "Medium"
+      }
+    },
+    {
+      "fact": "Max Verstappen set the record for the most Grand Prix wins in a single Formula 1 season, winning 19 out of 22 races during the 2023 championship.",
+      "metadata": {
+        "sport": "Formula 1",
+        "topic": "Season Wins Record",
+        "players": ["Max Verstappen"],
+        "year": 2023,
+        "difficulty": "Easy"
+      }
+    },
+    {
+      "fact": "Sebastian Vettel became the youngest Formula 1 World Champion in history in 2010 when he won the title at the age of 23 years and 134 days driving for Red Bull Racing.",
+      "metadata": {
+        "sport": "Formula 1",
+        "topic": "Youngest Champion",
+        "players": ["Sebastian Vettel"],
+        "year": 2010,
+        "difficulty": "Medium"
+      }
+    },
+    {
+      "fact": "Niki Lauda made a miraculous comeback at the 1976 Italian Grand Prix, just six weeks after suffering severe burns and lung damage in a fiery crash at the Nürburgring.",
+      "metadata": {
+        "sport": "Formula 1",
+        "topic": "Comeback",
+        "players": ["Niki Lauda"],
+        "year": 1976,
+        "difficulty": "Hard"
+      }
+    }
+  ],
+  "Olympics": [
+    {
+      "fact": "American swimmer Michael Phelps is the most decorated Olympian of all time, winning a total of 28 medals, including a record 23 gold medals, across five Olympic Games (2000-2016).",
+      "metadata": {
+        "sport": "Olympics",
+        "topic": "Swimmer Record",
+        "players": ["Michael Phelps"],
+        "year": 2016,
+        "difficulty": "Easy"
+      }
+    },
+    {
+      "fact": "Usain Bolt of Jamaica is the only athlete to win the 100m and 200m Olympic titles at three consecutive Games (2008 Beijing, 2012 London, 2016 Rio), holding the 100m world record at 9.58 seconds.",
+      "metadata": {
+        "sport": "Olympics",
+        "topic": "Sprinting Record",
+        "players": ["Usain Bolt"],
+        "year": 2016,
+        "difficulty": "Easy"
+      }
+    },
+    {
+      "fact": "Jesse Owens won four gold medals (100m, 200m, long jump, and 4x100m relay) at the 1936 Berlin Olympics, single-handedly debunking Adolf Hitler's theories of Aryan racial superiority.",
+      "metadata": {
+        "sport": "Olympics",
+        "topic": "Berlin 1936",
+        "players": ["Jesse Owens"],
+        "year": 1936,
+        "difficulty": "Medium"
+      }
+    },
+    {
+      "fact": "Nadia Comaneci of Romania, at age 14, became the first gymnast in Olympic history to be awarded a perfect score of 10.0, which she achieved at the 1976 Montreal Olympics on the uneven bars.",
+      "metadata": {
+        "sport": "Olympics",
+        "topic": "Perfect 10",
+        "players": ["Nadia Comaneci"],
+        "year": 1976,
+        "difficulty": "Easy"
+      }
+    },
+    {
+      "fact": "The first modern Olympic Games were held in Athens, Greece, in 1896, featuring 241 athletes from 14 nations competing in 43 events.",
+      "metadata": {
+        "sport": "Olympics",
+        "topic": "First Modern Games",
+        "players": ["Pierre de Coubertin"],
+        "year": 1896,
+        "difficulty": "Hard"
+      }
+    }
+  ]
+}
