@@ -24,38 +24,7 @@ graph TD
     Orchestrator -->|9. Render Quiz Cards| User
 ```
 
-### Flow Diagram: Generation Pipeline
 
-```mermaid
-sequenceDiagram
-    autonumber
-    actor User as Streamlit UI
-    participant Gen as generator.py
-    participant DB as database.py (ChromaDB)
-    participant Web as search.py (DuckDuckGo)
-    participant LLM as llm.py (Llama 3.1)
-    participant Parser as parser.py (Pydantic)
-
-    User->>Gen: Click "Generate Quiz" (Sport, Difficulty)
-    critical Retrieve Context
-        Gen->>DB: semantic_search(query, sport)
-        DB-->>Gen: Return top historical facts
-        Gen->>Web: search_live_news(sport)
-        Web-->>Gen: Return top 5 news snippets
-    end
-    Gen->>LLM: generate_quiz_response(Merged Context + Prompt)
-    LLM-->>Gen: Return raw JSON string
-    Gen->>Parser: parse_and_validate_quiz(raw_json)
-    alt Validation Successful
-        Parser-->>Gen: Return validated QuizModel
-        Gen-->>User: Render Quiz, Answer Key, Exports (PDF/JSON)
-    else Validation Failed (Invalid JSON or Missing Fields)
-        Parser-->>Gen: Raise ValueError (or retry LLM call)
-        Gen-->>User: Display Error Banner
-    end
-```
-
----
 
 ## 📂 Project Directory Structure
 
