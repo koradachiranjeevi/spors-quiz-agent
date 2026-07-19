@@ -90,71 +90,9 @@ pip install -r requirements.txt
 ```
 
 ### 4. Setup Environment Configurations
-Copy `.env.example` to a new file named `.env`:
-```bash
-copy .env.example .env
-```
-Open `.env` and fill in your details:
-- Enter your `GROQ_API_KEY` (if using Groq).
-- Enter your `OPENAI_API_KEY` (required for OpenAI embeddings).
-- Customize `LLM_PROVIDER` (e.g. `groq`, `together`, `ollama`, or `openai`).
+set an environment for your local device for adding API key
 
----
 
-## 🎮 Running the Application
 
-Launch the Streamlit web dashboard:
-```bash
-streamlit run app.py
-```
 
-Open `http://localhost:8501` in your browser.
-1. Use the **Sidebar** to choose a Sport and Difficulty level.
-2. Expand **LLM & API Credentials** in the sidebar to configure keys or adjust providers dynamically in the UI.
-3. Click **Generate RAG Quiz**.
-4. Test your knowledge! Select answers, check answers individually, or click **Submit Whole Quiz** to calculate your scoreboard.
-5. Export your results by downloading the quiz sheet as a **PDF** or raw **JSON**.
-
----
-
-## 📝 API Usage (Modular Import)
-
-You can run the RAG generation pipeline programmatically in other Python scripts:
-
-```python
-from src import database, generator
-
-# 1. Initialize DB Connection
-db_client = database.initialize_database()
-
-# 2. Run Quiz generator (Returns dict)
-result = generator.generate_quiz_rag(
-    sport="Cricket",
-    difficulty="Medium",
-    db_client=db_client,
-    provider="groq",
-    api_key="your-api-key"
-)
-
-if result["status"] == "success":
-    print("Generated Quiz:", result["quiz"])
-    print("Retrieved facts count:", len(result["historical_context"]))
-```
-
----
-
-## 🛠️ Troubleshooting
-
-### 1. DuckDuckGo Rate Limits or Empty Search Results
-If DuckDuckGo live search blocks requests (returning empty arrays), the system is built to degrade gracefully. It logs the search failure and continues generating the quiz using **only** ChromaDB historical facts, preventing application crashes.
-
-### 2. API Key Errors
-If you see credential errors, verify that:
-- Your `.env` variables match the selected `LLM_PROVIDER`.
-- You entered the API keys correctly in the sidebar parameters.
-
-### 3. ChromaDB Issues on Windows
-If you run into issues installing ChromaDB on Windows (e.g. compiler error), make sure you have the C++ build tools installed. If compilation fails, installing binary wheels by running `pip install chromadb` usually succeeds automatically on modern Python environments.
-
-### 4. Embedding Fallback
-If you do not have an `OPENAI_API_KEY` configured, the application will print a warning log and automatically fallback to loading the local embedding model `sentence-transformers/all-MiniLM-L6-v2` into memory, enabling vector database storage without external billing.
+ the application will print a warning log and automatically fallback to loading the local embedding model `sentence-transformers/all-MiniLM-L6-v2` into memory, enabling vector database storage without external billing.
