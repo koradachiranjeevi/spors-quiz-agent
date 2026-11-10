@@ -18,7 +18,7 @@ def resolve_provider_settings(provider: str, api_key: str = None, base_url: str 
         resolved_base_url = base_url or "https://api.groq.com/openai/v1"
         resolved_api_key = api_key or config.GROQ_API_KEY or config.LLM_API_KEY
         if not model:
-            resolved_model = "llama-3.1-8b-instant"
+            resolved_model = config.LLM_MODEL or "openai/gpt-oss-120b"
     elif prov == "together":
         resolved_base_url = base_url or "https://api.together.xyz/v1"
         resolved_api_key = api_key or config.TOGETHER_API_KEY or config.LLM_API_KEY
