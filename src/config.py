@@ -8,6 +8,15 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # Load environment variables from .env file
 load_dotenv(dotenv_path=BASE_DIR / ".env")
 
+# Load Streamlit secrets into environment variables (for Streamlit Cloud deployment)
+try:
+    import streamlit as st
+    for key, value in st.secrets.items():
+        if isinstance(value, str):
+            os.environ.setdefault(key, value)
+except Exception:
+    pass
+
 # App directories
 DATA_DIR = BASE_DIR / "data"
 CHROMA_DB_DIR = BASE_DIR / "chroma_db"
@@ -40,7 +49,7 @@ else:
 LLM_BASE_URL = os.getenv("LLM_BASE_URL", "")
 # Default model fallback based on provider
 default_models = {
-    "groq": "llama-3.1-8b-instant",
+    "groq": "openai/gpt-oss-120b",
     "together": "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo",
     "ollama": "llama3.1",
     "openai": "gpt-4o-mini",
@@ -49,7 +58,7 @@ default_models = {
 LLM_MODEL = os.getenv("LLM_MODEL", default_models.get(LLM_PROVIDER, "llama-3.1-8b-instant"))
 
 # Embedding settings
-EMBEDDING_PROVIDER = os.getenv("EMBEDDING_PROVIDER", "openai").lower()
+EMBEDDING_PROVIDER = os.getenv("EMBEDDING_PROVIDER", "local").lower()
 
 def get_db_path() -> str:
     """Returns absolute path to chroma db database directory."""
